@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: astrea-test
+    volumes:
+      - ./app/output:/app/output  
+    environment:
+      - DEBIAN_FRONTEND=noninteractive  
+    command: /bin/sh -c "python3 main.py && tail -f /dev/null"

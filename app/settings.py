@@ -1,0 +1,4 @@
+CONCURRENT_REQUESTS = 10   
+DOWNLOAD_DELAY = 0.2       
+ROBOTSTXT_OBEY = True     
+LOG_LEVEL = "INFO"         
